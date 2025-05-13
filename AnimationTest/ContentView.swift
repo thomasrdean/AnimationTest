@@ -67,7 +67,6 @@ struct GridState: View {
     let model: TestModel
     @Binding var currentMove: Move?
     
-    // dirs might have been better as an array......
     var body: some View {
         ZStack {
             // Why no need for Geometry reader here/
@@ -98,8 +97,6 @@ struct GirdPointLines: View {
         }
     }
     
-    // check if there is a move that covers
-    // this line segment
     func drawLine(col: Int, move: Move?) -> Bool {
         if move == nil { return true }
         if let m = move {
