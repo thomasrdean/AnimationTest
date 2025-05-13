@@ -129,7 +129,7 @@ struct MoveAnimator: View {
                 withAnimation(.easeIn(duration: 0.5) ){
                     self.isAnimating = true
                 } completion: {
-                    self.currentMove = nil
+                    self.currentMove = nil // self.currentMove = model.nextMove9)
                     self.isAnimating = false
                 }
             }
