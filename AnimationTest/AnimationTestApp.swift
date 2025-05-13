@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct AnimationTestApp: App {
+    @State private var model = TestModel(GridWidth: 10)
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(hasAnimation: true)
+                .environment(model)
         }
     }
 }
