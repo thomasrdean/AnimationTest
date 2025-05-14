@@ -128,7 +128,7 @@ struct MoveAnimator: View {
                 } completion: {
                     self.currentMove = nil // self.currentMove = model.nextMove))
                     self.isAnimating = false
-                    DispatchQueue.main.async() {
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.01) {
                         self.currentMove = model.nextMove()
                     }
                 }

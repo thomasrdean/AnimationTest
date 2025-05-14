@@ -24,6 +24,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05335A162DD4447200C488FE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		058FAAE82DD25F540090E8A2 /* AnimationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		058FAAF62DD25F550090E8A2 /* AnimationTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		058FAB002DD25F550090E8A2 /* AnimationTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +76,7 @@
 		058FAADF2DD25F540090E8A2 = {
 			isa = PBXGroup;
 			children = (
+				05335A162DD4447200C488FE /* README.md */,
 				058FAAEA2DD25F540090E8A2 /* AnimationTest */,
 				058FAAF92DD25F550090E8A2 /* AnimationTestTests */,
 				058FAB032DD25F550090E8A2 /* AnimationTestUITests */,
